@@ -2,12 +2,12 @@
     <!-- Demais configurações do seu web.xml -->
 
     <servlet>
-        <servlet-name>IdadeServlet</servlet-name>
-        <servlet-class>IdadeServlet</servlet-class>
+        <servlet-name>InformacoesServlet</servlet-name>
+        <servlet-class>InformacoesServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>IdadeServlet</servlet-name>
-        <url-pattern>/IdadeServlet</url-pattern>
+        <servlet-name>InformacoesServlet</servlet-name>
+        <url-pattern>/InformacoesServlet</url-pattern>
     </servlet-mapping>
 </web-app>
