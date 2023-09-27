@@ -1,11 +1,13 @@
 <web-app>
+    <!-- Demais configurações do seu web.xml -->
+
     <servlet>
-        <servlet-name>CalculoServlet</servlet-name>
-        <servlet-class>CalculoServlet</servlet-class>
+        <servlet-name>IdadeServlet</servlet-name>
+        <servlet-class>IdadeServlet</servlet-class>
     </servlet>
-    
+
     <servlet-mapping>
-        <servlet-name>CalculoServlet</servlet-name>
-        <url-pattern>/CalculoServlet</url-pattern>
+        <servlet-name>IdadeServlet</servlet-name>
+        <url-pattern>/IdadeServlet</url-pattern>
     </servlet-mapping>
 </web-app>
